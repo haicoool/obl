@@ -8,20 +8,11 @@
     <artifactId>obl-ocean1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!-- Project dependencies -->
-    <dependencies>
-        <!-- Add your dependencies here -->
-        <!-- Example: -->
-        <!--
-        <dependency>
-            <groupId>group-id</groupId>
-            <artifactId>artifact-id</artifactId>
-            <version>version</version>
-        </dependency>
-        -->
-    </dependencies>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
-    <!-- Build configuration -->
     <build>
         <plugins>
             <plugin>
